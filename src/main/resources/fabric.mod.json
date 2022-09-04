@@ -1,0 +1,38 @@
+{
+  "schemaVersion": 1,
+  "id": "expertoctopancake",
+  "version": "1.0",
+
+  "name": "Expert Octopus Pancake Lib",
+  "description": "To make a Fabric mod conveniently.",
+  "authors": [
+    "crazy_piggy_"
+  ],
+  "contact": {
+    "homepage": "https://github.com/Funny-Developers/",
+    "sources": "https://github.com/Funny-Developers/expert-octo-pancake"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/expertoctopancake/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "org.funnydevelopers.expertoctopancake.Expertoctopancake"
+    ]
+  },
+  "mixins": [
+    "expertoctopancake.mixins.json"
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.9",
+    "fabric-api": "*",
+    "minecraft": "~1.19",
+    "java": ">=17"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}
